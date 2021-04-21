@@ -87,7 +87,7 @@ def decrypt(message):
 
 # Hard-coded driver function to run the program
 def main():
-	message = "GEEKS-FOR-GEEKS"
+	message = input("Enter te morsecode: ")
 	result = encrypt(message.upper())
 	print (result)
 
